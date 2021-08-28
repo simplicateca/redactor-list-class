@@ -2,7 +2,7 @@
 
 This redactor plugin adds a new menu item to the `lists` dropdown which provides modal interface to choose from a configurable drop down of class names that you can use to style the list differently.
 
-![redactor list class plugin screenshot](https://simplicate.nyc3.digitaloceanspaces.com/simplicate/assets/site/images/list-style-plugin.png)
+![redactor list class plugin screenshot](https://simplicate.nyc3.digitaloceanspaces.com/simplicate/assets/site/images/list-class-plugin.png)
 
 This is an early draft of the plugin and any bug reports would be appreciated.
 
@@ -51,7 +51,6 @@ If you want your list class names to appear differently within the redactor edit
         content: '✓  ';
         font-weight: bold;
     }
-
 ```
 
 If you're using Craft CMS you could either use a plugin to inject this code into your admin panel, or you can create a module and load your own CSS file.
